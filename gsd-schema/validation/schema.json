@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GSD Identifier",
+  "description": "A schema for describing a GSD identifier.",
+  "type": "object",
+  "properties": {
+    "schema_format": {
+      "type": "string"
+    },
+    "schema_version": {
+
+    },
+    "osv": {
+      "$ref": "https://raw.githubusercontent.com/ossf/osv-schema/main/validation/schema.json"
+    }
+  }
+}
